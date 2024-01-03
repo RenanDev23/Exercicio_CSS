@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #0b0a0a;
+}
+
+h1 {
+    color: #d9d4d4;
+}
+
+body > header {
+    background-color: #080808;
+    padding: 16px 0;
+}
+
+header .container {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+header li{
+    display:flexbox
+}
+
+header li a {
+    color: #d9d4d4;
+    text-decoration: none;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto 0 auto;
+}
+
+.articles img {
+        height: 100px;
+        width: 60%;
+        margin-bottom: 10px;
+        background-position: center;
+        background-size: cover;
+    }
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    height: 180px;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section{
+    padding: 16px;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: blue;
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#sports {
+    background-color: rgba(0, 255, 0,0.1);
+}
+
+#sports .articles article a {
+    background-color: #009432;
+}
+
+#economy {
+    background-color:rgba(255, 251, 0, 0.1);
+}
+
+#economy .articles article a {
+    background-color: #ff9f1a;
+}
+
+#celebrations {
+    background-color: rgba(252, 3, 239, 0.1);
+}
+
+#celebrations .articles article a {
+    background-color: rgb(172, 7, 144);
+}
+
+#tecnology {
+    background-color: rgb(3,6,200,0.1);
+}
+
+#tecnology .articles article a {
+    background-color: #4b1bf8;
+}
+
+footer {
+    background-color: #333;
+    color:#fff;
+    text-align: center;
+    padding: 5%;
+}
+
+footer h3 {
+    color: #fff;
+    display: inline;
+}
